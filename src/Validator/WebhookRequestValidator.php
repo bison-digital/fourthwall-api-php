@@ -8,7 +8,7 @@ use Psr\Http\Message\RequestInterface;
 
 final class WebhookRequestValidator {
     public function __construct(
-        private array $validators,
+        private array $validators = [],
     ) {
     }
 
