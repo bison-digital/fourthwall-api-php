@@ -1,0 +1,30 @@
+{
+    "name": "bison-digital/fourthwall-api-php",
+    "description": "PHP SDK for Fouthwall's API.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fourthwall\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zach Bimson",
+            "email": "zach@bison.digital"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "php-http/discovery": "^1.19",
+        "psr/http-client-implementation": "*",
+        "symfony/http-client": "^7.0",
+        "psr/http-client": "^1.0",
+        "nyholm/psr7": "^1.8",
+        "psr/http-factory-implementation": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
